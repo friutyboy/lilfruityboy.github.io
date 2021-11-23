@@ -1,0 +1,53 @@
+body{
+    background-color:#fff;
+}
+
+#container{
+    background-color: rgb(255, 255, 255); 
+    margin-left:  auto;
+     margin-right: auto;
+}
+
+
+#header{
+    background-color: #fff;
+    text-align: center;
+   
+
+
+}
+#header h1{
+    color: rgb(0, 95, 201);
+}
+
+#content{
+    padding: 10px 10px 10px;
+    background-color: #eee;
+}
+
+#nav{
+    width: 300px;
+    float: left;
+}
+
+#nav ul{
+    color: rgb(0, 95, 201);;
+}
+
+#nav a{
+    color: #000;
+}
+
+#nav h3{
+    color: rgb(0, 95, 201);
+}
+
+#main{
+    width: 600px;
+    float: left;
+    
+}
+
+#main h1{
+    color: rgb(0, 95, 201);
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Rufina', serif;
+
+}
+ 
+p{
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 2px;
+    color: #a9a9a9
+}
+
+
+
+h1.videotitle{
+    margin-bottom: 20px;
+    color: rgb(0, 95, 201); 
+}
+
+.trykkeknapp a{
+    display: block;
+    width: 180px;
+    height: 35px;
+    border: 2px solid rgb(0, 95, 201);
+    line-height: 35px;
+    margin: 25px auto 0;
+    color: rgb(0, 95, 201);
+    text-align: center;
+    box-shadow: 5px 0px 18px #888888;
+
+}
+
+.main_container{
+    position: relative;
+}
+
+/* navigation bar */
+.navbar{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    min-height: auto;
+    
+}
+
+.logo a{
+    font-size: 32px;
+    color: #fff;
+}
+
+.navbar .navbar_items ul{
+display: flex;
+height: auto;
+width: auto;
+}
+
+.navbar .navbar_items ul li{
+    text-transform: uppercase;
+    margin: 0 10px;
+    }
+    .navbar .navbar_items ul li a{
+        color: #fff;
+    } 
+
+  
+    .banner_image{
+        background: url("https://cdn.pixabay.com/photo/2018/05/30/18/23/gdpr-3442145_1280.jpg") no-repeat top center;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: unset;
+        align-items: center;
+        text-align: center;
+        grid-row: 3
+        ;
+    }
+
+    .banner_content{
+        
+        color: #fff;
+       text-transform: uppercase;
+      
+    }
+
+    .banner_content h1{
+        text-align: center;
+        position: unset;
+        top: -100vh;
+    }
+
+    .videotitle h1{
+        text-align: left;
+        position: unset;
+    
+    }
+
+  
+    .video{
+        padding: 5% 10%;
+        text-align: center;
+        
+
+    }
+
+
+   
+    
+  
